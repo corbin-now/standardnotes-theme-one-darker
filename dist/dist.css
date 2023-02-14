@@ -101,7 +101,7 @@
 .CodeMirror .cm-header-4, .gKsMQS h4,
 .CodeMirror .cm-header-5, .gKsMQS h5,
 .CodeMirror .cm-header-6  .gKsMQS h6 {
-  font-size: 14px;
+  font-size: 18px;
 } 
 
 .CodeMirror .cm-formatting-header {
@@ -117,12 +117,10 @@
 .CodeMirror .cm-header-2, .gKsMQS h2 span {
   color: #00c18f;
   font-size: 32px;
-  border-bottom: 2px solid;
 }
 .CodeMirror .cm-header-3, .gKsMQS h3 span {
   color: #04a942;
   font-size: 27px;
-  border-bottom: 2px solid;
 }
 .CodeMirror .cm-header-4, .gKsMQS h4 span {
   font-size: 22px;
@@ -217,7 +215,7 @@
 #notes-column .note>.name, .notes .note>.name {
   font-size: 14px;
   font-weight: 500;
-  font-family: 'SF Pro Display',sans-serif;
+  font-family: 'Inter',sans-serif;
   white-space: nowrap;
 }
 
