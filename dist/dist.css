@@ -61,7 +61,9 @@
   /* Use lighter blue for Minimal Markdown Editor sublists and other CodeMirror elements */
 }
 
-
+.body {
+  font-family: "Inter","Roboto",sans-serif
+}
 
 
 .CodeMirror, .CodeMirror-fullscreen, .gKsMQS, .gKsMQS p, .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like  {
@@ -113,19 +115,22 @@
 .CodeMirror .cm-header-1, .gKsMQS h1 span {
   color: #00ddf1;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
 }
 .CodeMirror .cm-header-2, .gKsMQS h2 span {
   color: #00c18f;
   font-size: 32px;
+  font-weight: 700;
 }
 .CodeMirror .cm-header-3, .gKsMQS h3 span {
-  color: #04a942;
+  color: #dfdd6c;
   font-size: 27px;
+  font-weight: 600;
 }
 .CodeMirror .cm-header-4, .gKsMQS h4 span {
   font-size: 22px;
-  color: #315632;
+  color: #e7657a;
+  font-weight: 600;
 }
 .CodeMirror .cm-header-5, .gKsMQS h5 span {
   color: #aaa;
