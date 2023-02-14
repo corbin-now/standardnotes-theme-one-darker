@@ -46,6 +46,9 @@
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-1);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+  
+  --sn-stylekit-monospace-font: 'Martian Mono', 'Roboto Mono', monospace;
+  --sn-stylekit-sans-serif-font: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
   /* Note flags */
   /* Note selected */
   /* Sidebar note properties: Dates, tags, etc. */
@@ -57,13 +60,14 @@
 
 
 
+
 .CodeMirror, .CodeMirror-fullscreen, .gKsMQS, .gKsMQS p, .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like  {
   font-family: "Inter","Martian Mono",Courier,monospace;
-  line-height: 22px;
+  line-height: 24px;
   font-feature-settings: "liga" 0, "calt" 0;
   letter-spacing: 0px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .CodeMirror, .CodeMirror-fullscreen {
