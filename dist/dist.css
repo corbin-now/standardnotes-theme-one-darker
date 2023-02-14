@@ -61,7 +61,7 @@
   /* Use lighter blue for Minimal Markdown Editor sublists and other CodeMirror elements */
 }
 
-.body {
+html body {
   font-family: "Inter","Roboto",sans-serif;
 }
 
