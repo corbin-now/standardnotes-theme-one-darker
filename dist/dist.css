@@ -47,6 +47,8 @@
   --sn-desktop-titlebar-ui-color: var(--foreground-1);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
   
+  @import url('https://rsms.me/inter/inter.css');
+  
   --sn-stylekit-monospace-font: 'Martian Mono', 'Roboto Mono', monospace;
   --sn-stylekit-sans-serif-font: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
   /* Note flags */
@@ -62,7 +64,7 @@
 
 
 .CodeMirror, .CodeMirror-fullscreen, .gKsMQS, .gKsMQS p, .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like  {
-  font-family: "Inter","Martian Mono","Roboto Mono","Roboto","Courier",monospace;
+  font-family: "Inter","Martian Mono","Roboto Mono","Roboto",monospace;
   line-height: 27px;
   font-feature-settings: "liga" 0, "calt" 0;
   letter-spacing: 0px;
@@ -109,18 +111,21 @@
 
 .CodeMirror .cm-header-1, .gKsMQS h1 span {
   color: #d55fdeff;
-  font-size: 26px;
+  font-size: 36px;
   font-weight: bold;
 }
 .CodeMirror .cm-header-2, .gKsMQS h2 span {
   color: #e06c75ff;
+  font-size: 32px;
   border-bottom: 2px solid;
 }
 .CodeMirror .cm-header-3, .gKsMQS h3 span {
   color: #d19a66ff;
+  font-size: 27px;
   border-bottom: 2px solid;
 }
 .CodeMirror .cm-header-4, .gKsMQS h4 span {
+  font-size: 22px;
   color: #98c378;
 }
 .CodeMirror .cm-header-5, .gKsMQS h5 span {
