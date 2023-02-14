@@ -1,3 +1,5 @@
+@import url('https://rsms.me/inter/inter.css');
+
 :root {
   --background-1: #181a1f;
   --background-2: #181a1f;
@@ -45,9 +47,7 @@
   --sn-desktop-titlebar-bg-color: var(--background-1);
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-1);
-  --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
-  
-  @import url('https://rsms.me/inter/inter.css');
+  --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);  
   
   --sn-stylekit-monospace-font: 'Martian Mono', 'Roboto Mono', monospace;
   --sn-stylekit-sans-serif-font: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
@@ -110,23 +110,23 @@
 }
 
 .CodeMirror .cm-header-1, .gKsMQS h1 span {
-  color: #d55fdeff;
+  color: #00ddf1;
   font-size: 36px;
   font-weight: bold;
 }
 .CodeMirror .cm-header-2, .gKsMQS h2 span {
-  color: #e06c75ff;
+  color: #00c18f;
   font-size: 32px;
   border-bottom: 2px solid;
 }
 .CodeMirror .cm-header-3, .gKsMQS h3 span {
-  color: #d19a66ff;
+  color: #04a942;
   font-size: 27px;
   border-bottom: 2px solid;
 }
 .CodeMirror .cm-header-4, .gKsMQS h4 span {
   font-size: 22px;
-  color: #98c378;
+  color: #315632;
 }
 .CodeMirror .cm-header-5, .gKsMQS h5 span {
   color: #aaa;
