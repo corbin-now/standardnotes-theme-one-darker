@@ -2,21 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
 
 :root {
-  --background-1: #181a1f;
-  --background-2: #2b2e36;
-  --foreground-1: #aab1c0;
-  --foreground-2: #b3bac8;
-  --foreground-3: #bdc3ce;
-  --highlight-color: #41c9ec;
-  --neutral-color: #4e6a88;
+  --background-1: #1c1c1c;
+  --background-2: #161616;
+  --foreground-1: #9fb7bb;
+  --foreground-2: #879fa1;
+  --foreground-3: #a0b3b7;
+  --highlight-color: #26d5ff;
+  --neutral-color: #6c7678;
   --danger-color: #da3a34;
   --success-color: #18c262;
   --warning-color: #f9ff3f;
   --border-color: #181a1f;
   /* Footer */
   --footer-bar-border-top-color: 0;
-  --sn-stylekit-info-color: var(--highlight-color);
-  --sn-stylekit-info-contrast-color: var(--foreground-1);
+  --sn-stylekit-info-color: #20aacb;
+  --sn-stylekit-info-contrast-color: #ffffff;
   --sn-stylekit-neutral-color: var(--neutral-color);
   --sn-stylekit-neutral-contrast-color: var(--background-2);
   --sn-stylekit-success-color: var(--success-color);
